@@ -23,8 +23,6 @@ class MwcheckEntitlement {
 }
 
 export function getEntitlementInstance(...args) {
-
     protectedEntitlementInstance = protectedEntitlementInstance || new MwcheckEntitlement(...args);
-
     return protectedEntitlementInstance;
 }
